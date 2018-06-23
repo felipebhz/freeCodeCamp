@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC - Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row col-md-9 offset-md-2 inner-container">
+    <div class="title">
+      <p><i class="fi-clock icon"></i>&nbsp;Real Time&nbsp;<i class="fi-clock icon"></i>
+        <br><i class="fi-mountains icon"></i>Weather Information <i class="fi-cloud icon"></i></p></div>
+    <div class="date-time">
+      <div class="date">
+        <div id="weekday" class="weekday"><i class="fi-loop icon"></i></div>
+        <div id="date-month" class="date"><i class="fi-loop icon"></i></div>
+      </div>
+    </div>
+    <div class="weather">
+      <div class="degrees"><p id="temp"></p>
+        <span class="temp" id="tempunit"></span>
+      </div>
+      <div id="city" class="city"></div>
+      <div class="weather-icon">
+        <img id="weather-icon" src="" />
+      </div>  
+      <div id="weather-desc" class="weather-desc"></div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://momentjs.com/downloads/moment.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

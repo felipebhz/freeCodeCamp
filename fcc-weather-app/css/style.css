@@ -1,0 +1,60 @@
+body {
+  background-color: #1B2B34;
+}
+
+.inner-container {
+  margin-top: 20px;
+  background-color: #5c77a9;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.title p{
+  font-size: 28px;
+  font-family: 'Bowlby One SC', cursive;
+  color: #e4ea92;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.date-time {
+  margin-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+.weekday {
+  font-weight: bold;
+}
+
+.weather {
+    margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.weather-icon {
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.degrees {
+  font-size: 48px;
+  display: inline-block;
+}
+
+.degrees p{
+  display: inline-block;
+}
+
+.temp {
+  display: inline-block;
+}
